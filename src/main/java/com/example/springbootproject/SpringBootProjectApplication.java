@@ -2,14 +2,18 @@ package com.example.springbootproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RequestMapping;
+
 
 @SpringBootApplication
-public class SpringbootprojectApplication {
+public class SpringBootProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootprojectApplication.class, args);
+		SpringApplication.run(SpringBootProjectApplication.class, args);
 	
+	}
+	
+	public void get() {
+		System.out.println("HelloWorld");
 	}
 	
 	

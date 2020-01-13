@@ -13,6 +13,10 @@ public class Controller {
 		return "Hello World";
 	}
 	
+	public void save() {
+		System.out.println("hello");
+	}
+	
 	
 
 }
