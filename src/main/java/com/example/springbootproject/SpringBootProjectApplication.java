@@ -13,8 +13,12 @@ public class SpringBootProjectApplication {
 	}
 	
 	public void get() {
-		System.out.println("HelloWorld");
+		System.out.println("get");
 	}
+	public void getall() {
+
+		System.out.println("getall");
+		}
 	
 	
 }
