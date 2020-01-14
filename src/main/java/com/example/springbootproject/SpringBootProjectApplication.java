@@ -16,5 +16,9 @@ public class SpringBootProjectApplication {
 		System.out.println("HelloWorld");
 	}
 	
+	public void hello() {
+		System.out.println("Hello");
+	}
+	
 	
 }
