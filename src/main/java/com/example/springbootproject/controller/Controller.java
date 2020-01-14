@@ -20,6 +20,8 @@ public class Controller {
 		System.out.println("update");
 	}
 	
-	
+	public void delete() {
+		System.out.println("delete");
+	}
 
 }
