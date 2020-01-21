@@ -20,6 +20,10 @@ public class SpringBootProjectApplication {
 		System.out.println("Hello");
 	}
 	
+	public String name() {
+		return "name";
+	}
+	
 
 	
 }
