@@ -15,11 +15,11 @@ public class SpringBootProjectApplication {
 		System.out.println("get");
 	}
 
-	public void getall() {
-
-		System.out.println("getall");
+	
+	public void hello() {
 		System.out.println("Hello");
 	}
+	
 
 	
 }
