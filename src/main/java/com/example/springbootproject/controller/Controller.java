@@ -14,9 +14,14 @@ public class Controller {
 	}
 	
 	public void save() {
-		System.out.println("hello");
+		System.out.println("save");
+	}
+	public void update() {
+		System.out.println("update");
 	}
 	
-	
+	public void delete() {
+		System.out.println("delete");
+	}
 
 }
